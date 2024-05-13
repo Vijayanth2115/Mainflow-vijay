@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.featured-news {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.featured-news .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-article {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.news-article img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.news-article h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.news-article p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.news-article a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.news-article a:hover {
+    background-color: #555;
+}
+
+.categories {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.category {
+    flex: 0 0 22%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.category img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.category h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.category p {
+    font-size: 16px;
+    color: #555;
+}
+
+.latest-news {
+    padding: 50px 0;
+}
+
+.latest-news .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.latest-news .news-article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.featured-reviews {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.featured-reviews .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.review img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.review h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.review a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.review a:hover {
+    background-color: #555;
+}
+
+.about-us {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.about-us .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-us {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact-us .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-us input,
+.contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-us button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-us button:hover {
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-media a {
+    margin-left: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.head{
+    font-size: 35px;
+}
